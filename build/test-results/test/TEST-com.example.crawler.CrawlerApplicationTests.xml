@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.crawler.CrawlerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-17T14:55:22" hostname="MBPvonJennifer2.fritz.box" time="134.179">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.crawler.CrawlerApplicationTests" time="134.179"/>
+  <system-out><![CDATA[15:55:20.619 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.crawler.CrawlerApplicationTests]: CrawlerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:55:20.780 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.crawler.CrawlerApplication for test class com.example.crawler.CrawlerApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-17T15:55:21.173+01:00  WARN 20657 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/jenniferwitzig/.gradle/caches/modules-2/files-2.1/org.json/json/20230227/7a0d4aca76513d8ce81f9b044ce8126b84809ad8/json-20230227.jar!/org/json/JSONObject.class
+	jar:file:/Users/jenniferwitzig/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-11-17T15:55:21.189+01:00  INFO 20657 --- [    Test worker] c.e.crawler.CrawlerApplicationTests      : Starting CrawlerApplicationTests using Java 17.0.8 with PID 20657 (started by jenniferwitzig in /Users/jenniferwitzig/projects/crawler)
+2023-11-17T15:55:21.190+01:00  INFO 20657 --- [    Test worker] c.e.crawler.CrawlerApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-11-17T15:55:22.822+01:00  INFO 20657 --- [    Test worker] c.e.crawler.CrawlerApplicationTests      : Started CrawlerApplicationTests in 1.878 seconds (process running for 3.254)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

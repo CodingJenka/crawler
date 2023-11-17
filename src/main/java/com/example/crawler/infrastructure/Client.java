@@ -12,7 +12,7 @@ public abstract class Client {
   protected static final String REPO_URI = "/users/%s/repos";
   protected static final String LANGUAGE_URI = "/repos/%s/%s/languages";
   protected final Consumer<HttpHeaders> AUTH_HEADER = httpHeaders -> {
-    httpHeaders.set("Authorization", "Bearer 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");
+    httpHeaders.set("Authorization", "Bearer <token>");
   };
 
   protected final WebClient client = WebClient.builder()
